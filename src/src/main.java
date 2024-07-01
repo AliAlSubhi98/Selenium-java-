@@ -14,8 +14,9 @@ public class main {
 		// TODO Auto-generated method stub
 		System.out.println("TEST is starting");
       String name = "Ali Hamood";
-//      System.setProperty("webdriver.chrome.driver", "C:\\Users\\alial\\OneDrive\\Desktop\\Files\\chromedriver-win64\\chromedriver.exe");
-//      System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
+      //after new update no need to setup the driver , as it done on the back end by SeleniumManager (Beta Phase)
+//      System.setProperty("webdriver.chrome.driver", "C:\\Users\\alial\\OneDrive\\Desktop\\Files\\chromedriver-win64\\chromedriver.exe"); //windows
+//      System.setProperty("webdriver.chrome.driver", "/Users/AliHamood/Documents/chromedriver"); // mac
       WebDriver driver = new ChromeDriver();
 //      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
       driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
